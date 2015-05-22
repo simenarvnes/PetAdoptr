@@ -1,0 +1,53 @@
+/*
+CSS for search.php
+*/
+#li-1{
+border-bottom: 2px solid #FFFFFF;
+}
+
+body{
+	padding-bottom: 20px;
+	background-color:#FBFBFB;
+}
+
+.btn{
+text-shadow: none;
+font-weight: 700;
+letter-spacing: .10em;
+}
+
+#display-title{
+padding-bottom: 15px;
+}
+
+#btn-search{
+text-transform: uppercase;
+background: #1cdf71;
+border-color: #1cdf71;
+width: 200px;
+}
+
+#btn-search:hover{
+-moz-box-shadow: 0 0 10px #ccc;
+-webkit-box-shadow: 0 0 10px #ccc;
+box-shadow: 0 0 10px #ccc;
+}
+
+#btn-reset{
+text-transform: uppercase;
+background: #47b0e2;
+border-color: #47b0e2;
+width: 150px;
+}
+
+#btn-reset:hover{
+-moz-box-shadow: 0 0 10px #ccc;
+-webkit-box-shadow: 0 0 10px #ccc;
+box-shadow: 0 0 10px #ccc;
+}
+
+#search-filters .container .btn-group .btn{
+width: 150px;
+}
+
+

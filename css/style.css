@@ -1,0 +1,533 @@
+/*
+CSS for index.php and header.php
+*/
+
+/* HTML and Body */
+
+html {
+position: relative;
+min-height: 100%;
+}
+
+p {
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+}
+
+body{
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+padding-top: 80px;
+margin-bottom: 140px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Lato', sans-serif;
+font-weight: 700;
+}
+
+/* Login and signup modals */
+
+.modal-body .form-horizontal .col-sm-2,
+.modal-body .form-horizontal .col-sm-10 {
+width: 100%
+}
+
+.modal-body .form-horizontal .control-label {
+text-align: left;
+}
+
+.modal-body .form-horizontal .col-sm-offset-2 {
+margin-left: 15px;
+}
+
+/* Navbar */
+
+.navbar {
+border-color: transparent;
+background: #3B92B9;
+color: white;
+padding-bottom: 5px;
+}
+
+.navbar-default .navbar-brand {
+font-family: 'Lato', sans-serif;
+color: white;
+font-size: 2.5em;
+font-weight: 700;
+letter-spacing: 0;
+text-shadow: none;
+}
+
+.navbar-default .navbar-brand:hover {
+color: #FFB72A;
+}
+
+.navbar-default .navbar-nav li a {
+color: white;
+text-shadow: none;
+cursor: pointer;
+margin-top: 5px;
+font-weight: 400;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+outline: 0;
+color: #FFB72A;
+text-shadow: none;
+}
+
+.navbar-default .navbar-text{
+    text-align:center;
+    padding-top: 5px;
+    color: #FFB72A;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  background-color: #FFAA47;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-nav>li>.dropdown-menu{
+	background-color: white;
+}
+
+.navbar-nav>li>.dropdown-menu>li>a{
+	color: #333 !important;
+}
+
+.navbar-nav>li>a{
+  padding-bottom: 7px;
+}
+
+.navbar-nav>li:hover{
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.highlight {
+padding: 9px 14px;
+margin-bottom: 14px;
+background-color: #f7f7f9;
+border: 1px solid #e1e1e8;
+border-radius: 4px;
+}
+
+.center-image {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* Main Section */
+
+#main-circles {
+margin-top: -80px;
+}
+
+#main-circles .intro-heading {
+padding-top: 85px;
+text-align: center;
+font-size: 50px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: .05em;
+}
+
+hr {
+margin-top: 15px;
+width: 50%;
+opacity: .7;
+}
+
+#main-circles .intro-subheading {
+text-align: center;
+margin-bottom: 25px;
+font-size: 22px;
+font-weight: 300;
+letter-spacing: 0.10em;
+}
+
+#main-circles .container-fluid {
+background-color: #47B0E2;
+color: white;
+padding-bottom: 20px;
+}
+
+#main-circles .col-md-12 {
+text-align: center;
+display: block;
+padding-left: 250px;
+padding-right: 250px;
+}
+
+#main-circles #top-row{
+margin-bottom: 10px;
+}
+
+#main-circles #bottom-row{
+margin-top: 200px;
+margin-bottom: 175px;
+}
+
+#main-circles .img-circle {
+width: 180px;
+height: 180px;
+}
+
+#main-circles .img-circle:hover {
+cursor: pointer;
+}
+
+/* Find Button Section */
+
+#find-button {
+background-color: #47B0E2;
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: .10em;
+}
+
+#find-button .col-md-6.col-md-offset-3 {
+margin-top: 25px;
+margin-bottom: 50px;
+}
+
+#find-button .btn {
+border-color: white;
+color: white;
+}
+
+#find-button .btn:hover {
+-moz-box-shadow: 0 0 10px #ccc;
+-webkit-box-shadow: 0 0 10px #ccc;
+box-shadow: 0 0 10px #ccc;
+}
+
+/* Pet Ad Section */
+#pet-ad #pet-ad-background{
+  height: 450px;
+  background: url(../images/comfycat.jpg) top center no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#pet-ad .row{
+  padding-right: 25px;
+  text-align: right;
+  color: white;
+  margin-top: 75px;
+}
+
+#pet-ad .btn{
+  font-weight: 700;
+  letter-spacing: .10em;
+  background: #ffcc47;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 25px;
+  border-color: #ffcc47;
+  width: 300px;
+  display: inline-block;
+}
+
+#pet-ad .btn:hover {
+-moz-box-shadow: 0 0 10px #ccc;
+-webkit-box-shadow: 0 0 10px #ccc;
+box-shadow: 0 0 10px #ccc;
+}
+
+#pet-ad h3{
+  font-weight: 300;
+}
+
+/* Pet Tips Section */
+
+#pet-tips {
+  padding: 40px 0px 40px 25px;
+}
+
+
+#pet-tips h1 {
+font-weight: 700;
+padding-bottom: 15px;
+}
+
+#pet-tips h3{
+  font-weight: 300;
+}
+
+#pet-tips .btn{
+  font-weight: 700;
+  letter-spacing: .10em;
+  background: #f15a5a;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 25px;
+  border-color: #f15a5a;
+  width: 300px;
+  display: inline-block;
+}
+
+#pet-tips .btn:hover {
+-moz-box-shadow: 0 0 10px #ccc;
+-webkit-box-shadow: 0 0 10px #ccc;
+box-shadow: 0 0 10px #ccc;
+}
+
+/* Success Quotes/Stories Section */
+
+#success-quotes {
+height: auto;
+padding: 70px 0px 40px 0px;
+background: url(../images/comfydog.jpg) top center no-repeat;
+background-attachment: scroll;
+background-position: center center;
+background-repeat: none;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+}
+
+#success-quotes h1 {
+text-align: center;
+color: white;
+font-weight: 700;
+padding-bottom: 15px;
+}
+
+#success-quotes p {
+text-align: center;
+font-size: 30px;
+color: white;
+}
+
+#success-quotes small{
+  color: white;
+}
+
+/* Flip effect for main section image circles */
+
+#f1_container {
+position: relative;
+z-index: 1;
+}
+
+#f1_container {
+-webkit-perspective:1000;
+perspective: 1000;
+}
+
+#f1_card {
+width: 100%;
+height: 100%;
+-webkit-transform-style: preserve-3d;
+transform-style: preserve-3d;
+-webkit-transition: all 0.5s linear;
+transition: all 0.5s linear;
+}
+
+#f1_container:hover #f1_card {
+-webkit-transform: rotateY(180deg);
+transform: rotateY(180deg);
+}
+
+.face {
+position: absolute;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+
+.face.back {
+-webkit-transform: rotateY(180deg);
+transform: rotateY(180deg);
+}
+
+/* Mobile media query for resizing main section on tablet sized screens down */
+@media screen and (max-width: 1020px){
+#main-circles .col-md-12 {
+text-align: center;
+padding-left: 50px;
+padding-right: 50px;
+position:relative;
+}
+
+#main-circles .img-circle {
+width: 140px;
+height: 140px;
+font-family: 'Lato', sans-serif;
+font-weight: 100;
+}
+
+#main-circles #top-row{
+margin-top: 0px;
+margin-bottom: 150px;
+}
+
+#main-circles #bottom-row{
+margin-top:0px;
+margin-bottom: 150px;
+}
+
+.face {
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+}
+
+#find-button .col-md-6.col-md-offset-3 {
+margin-top: 15px;
+margin-bottom: 50px;
+}
+}
+
+#sign-up{
+  padding: 40px 0px 40px 0px;
+  background-color: #47b0e2;
+  color:white;
+}
+
+#sign-up p{
+text-align: center;
+font-size: 20px;
+}
+
+#sign-up .btn{
+  font-weight: 700;
+  letter-spacing: .10em;
+  background: #1cdf71;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 25px;
+  border-color: #1cdf71;
+  width: 300px;
+  display: inline-block;
+}
+
+#sign-up .btn:hover {
+-moz-box-shadow: 0 0 10px #ccc;
+-webkit-box-shadow: 0 0 10px #ccc;
+box-shadow: 0 0 10px #ccc;
+}
+
+/* Mobile media query for resizing main section image circles on mobile screens */
+
+@media screen and (max-width: 768px){
+#main-circles .col-md-12 {
+text-align: center;
+padding-left: 40px;
+padding-right: 50px;
+position:relative;
+}
+}
+
+/* Quote Carousel CSS */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: white;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+

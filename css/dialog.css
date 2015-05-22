@@ -1,0 +1,140 @@
+.modal-dialog {
+    width: 435px;
+    height: 500px;
+    margin: 30px auto;
+}
+
+.modal-dialog-big {
+    width: 520px;
+    height: 500px;
+    margin: 30px auto;
+}
+
+.create-box .alt-row {
+    color: #818183;
+    font-size: 16px;
+    line-height: 19px;
+    margin: -3px 0 0;
+    padding: 0 0 8px 13px;
+}
+
+.create-box .alt-row .text {
+    float: left;
+    padding: 0 15px 0 0;
+    font-size: 17px;
+    line-height: 20px;
+    color: #3b4759;
+    font-weight: 400;
+}
+
+.create-box .center-text{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.signup-form input[type="email"], .signup-form input[type="password"], .signup-form input[type="text"] {
+    border-radius: 3px;
+    border: 1px solid #b5b5b5;
+    color: black;
+    display: block;
+    margin: 0 0 14px;
+    padding: 10px 15px 11px;
+    height: 46px;
+    width: 100%;
+    font: 300 16px/19px Helvetica, Arial, sans-serif;
+}
+
+.login-form input[type="email"], .login-form input[type="password"] {
+    border-radius: 3px;
+    border: 1px solid #b5b5b5;
+    color: black;
+    display: block;
+    margin: 0 0 14px;
+    padding: 10px 15px 11px;
+    height: 46px;
+    width: 100%;
+    font: 300 16px/19px Helvetica, Arial, sans-serif;
+}
+
+.adopt-form input[type="email"], .adopt-form input[type="text"] {
+    border-radius: 3px;
+    border: 1px solid #b5b5b5;
+    color: black;
+    display: block;
+    margin: 0 0 14px;
+    padding: 10px 15px 11px;
+    height: 46px;
+    width: 100%;
+    font: 300 16px/19px Helvetica, Arial, sans-serif;
+}
+
+.modal-submit-btn {
+    border: none;
+    background: #45ba8e;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    height: 49px;
+    overflow: hidden;
+    color: white;
+    border-radius: 3px;
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0;
+}
+
+form, fieldset {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+.modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -moz-transition: -moz-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+}
+
+.modal.in .modal-dialog {
+
+}
+
+label {
+    font-weight: 400;
+}
+
+label.red {
+    color: #ff6161;
+}
+
+.adoptme-body {
+    position: relative;
+    padding: 25px;
+}
+
+.adopt-heading {
+    padding: 25px 10px 19px;
+    background: #f7f6f6;
+    border-bottom: 1px solid #f3f2f2;
+    border-radius: 6px 6px 0 0;
+}
+
+.adopt-textarea {
+    border-radius: 3px;
+    border: 1px solid #b5b5b5;
+    color: black;
+    margin: 0 0 14px;
+    padding: 10px 15px 11px;
+    display: block;
+    resize: vertical;
+    width: 100% !important;
+    height: 186px;
+    font: 300 16px/19px Helvetica, Arial, sans-serif;
+    
+} #privacy .modal-body {
+        max-height: 700px;
+        overflow-y: auto;
+    }

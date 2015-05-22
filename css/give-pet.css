@@ -1,0 +1,53 @@
+/*
+CSS for give-pet.php
+*/
+#li-2{
+border-bottom: 2px solid #FFFFFF;
+}
+
+body{
+	background-color: #FBFBFB;
+}
+
+#heading{
+	margin-top: -20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #f0f0f0;
+	background-color: white;
+}
+
+#main{
+	padding-top: 20px;
+	background-color: #FBFBFB;
+	padding-bottom: 50px;
+}
+
+#main .fa{
+	margin-right: 20px;
+	color: #bcbcbc;
+}
+
+
+.form-horizontal{
+	background-color: white;
+	padding: 20px;
+	border: 1px solid #f0f0f0;
+}
+
+.checkbox{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.form-actions{
+	text-align: center;
+}
+
+.btn.btn-default.dropdown-toggle{
+	width: 160px;
+}
+
+.required {
+    color: red;
+}
+
